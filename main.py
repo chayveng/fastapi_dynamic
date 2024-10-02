@@ -103,6 +103,6 @@ dynamic_router = create_router_from_config(config)
 
 app.include_router(dynamic_router)
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8889, reload=True)
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="0.0.0.0", port=8889, reload=True)
